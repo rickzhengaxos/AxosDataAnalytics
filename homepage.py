@@ -2,6 +2,9 @@ import streamlit as st
 
 st.set_page_config(page_title="Axos - Data Analytics", layout="centered")
 
+
+st.set_page_config(page_title="Axos - Data Analytics", layout="wide")
+
 # Hide sidebar, menu, and footer
 hide_elements = """
     <style>
@@ -10,9 +13,17 @@ hide_elements = """
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
+
+    /* Left-align main content */
+    .block-container {
+        padding-top: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        max-width: 1200px;
+        margin: 0;  /* removes auto-centering */
+    }
     </style>
 """
-st.markdown(hide_elements, unsafe_allow_html=True)
 
 # Title
 st.title("Axos Projects and Reporting")
