@@ -20,11 +20,11 @@ st.title("Commercial / Credit Projects (Managed by Rick)")
 st.write("Sections below:")
 
 # Button to launch your Streamlit project
-if st.button("📊 Tableau to Excel Report Project"):
+if st.button("Tableau to Excel Report Project"):
     st.switch_page("pages/TableauToExcel.py")  
 
 # Expander with loan boarding reports links
-with st.expander("📂 Loan Boarding Reports"):
+with st.expander("Loan Boarding Reports"):
     st.markdown(
         "- [Daily Loan Balance Report](https://prod-useast-b.online.tableau.com/#/site/axosfinancialproduction/views/DailyLoanBalance/UnusedLineFees?:iid=1)"  
     )  
