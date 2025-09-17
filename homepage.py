@@ -15,7 +15,7 @@ hide_elements = """
 st.markdown(hide_elements, unsafe_allow_html=True)
 
 # Title
-st.title("Commercial / Credit Projects (Managed by Rick)")
+st.title("Axos Projects and Reporting")
 
 st.write("Sections below:")
 
