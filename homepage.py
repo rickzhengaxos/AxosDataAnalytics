@@ -92,7 +92,8 @@ if st.button("Tableau to Excel Report Project"):
 reports = {
     "Daily Loan Balance Report - Tableau": "https://prod-useast-b.online.tableau.com/#/site/axosfinancialproduction/views/DailyLoanBalance/UnusedLineFees?:iid=1",
     "WIP nCino Loan Origination Report - SSRS": "http://jhaknow/reports/report/Work%20in%20Progress/Rick's%20Hub/WIP%20nCino%20Loan%20Origination%20Report",
-    "WIP Loan Boarding Approval (nCino) - SSRS": "http://jhaknow/reports/report/Work%20in%20Progress/Rick's%20Hub/WIP%20Loan%20Boarding%20Approval%20(nCino)"
+    "WIP Loan Boarding Approval (nCino) Report - SSRS": "http://jhaknow/reports/report/Work%20in%20Progress/Rick's%20Hub/WIP%20Loan%20Boarding%20Approval%20(nCino)",
+    "WIP Post-Funding Covenant (PFC) Report - SSRS": "http://jhaknow/reports/report/Work%20in%20Progress/Rick's%20Hub/WIP%20PostFundingCovenant%20(PFC)%20Report"
 }
 
 # --- Search with dropdown suggestions ---
